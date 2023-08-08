@@ -1,0 +1,17 @@
+{
+  "name": "kaka-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KAKA-kw/Algorithm.git",
+  "author": "Doeunnkimm <doeunnkimm@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "docs": "yarn workspace docs"
+  },
+  "packageManager": "yarn@3.6.1"
+}
